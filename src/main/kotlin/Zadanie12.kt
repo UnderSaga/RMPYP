@@ -1,7 +1,17 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    val n = readln().toInt()
+    println(getCubeList(n))
+}
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun getCubeList(n: Int): String {
+    var str = ""
+    var i = 0
+    while(n > i)
+    {
+        str += i * i * i
+        str += " "
+        i += 1
+    }
+
+    return str
 }

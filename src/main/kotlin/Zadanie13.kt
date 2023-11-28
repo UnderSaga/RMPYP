@@ -1,7 +1,18 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
-
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
-}
+//fun main() {
+//    val number = readln().toInt()
+//    engineStatus(number)
+//}
+//
+//fun engineStatus(engineNumber: Int): String{
+//    return try{
+//        rawEngineStatus(engineNumber)
+//    } catch (e: engineNotFoundException) {
+//        "engine $engineNumber not found"
+//    } catch (e: SensorsMeltException) {
+//        "engine $engineNumber offline"
+//    }
+//}
+//
+//fun rawEngineStatus(engineNumber: Int) : String {
+//    return engineNumber.toString()
+//}
